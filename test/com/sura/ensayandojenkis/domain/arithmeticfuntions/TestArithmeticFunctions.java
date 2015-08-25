@@ -40,7 +40,7 @@ public class TestArithmeticFunctions {
 		ArithmeticFunctions functions =new ArithmeticFunctions();
 		Double expectedValue=7.0;
 		Double division;
-		int term1=21,term2=3;
+		int term1=25,term2=3;
 		division=functions.division(term1,term2);
 		assertEquals(expectedValue, division);
 	}
